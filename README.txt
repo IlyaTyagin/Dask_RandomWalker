@@ -1,9 +1,15 @@
 DaskNode2Vec
 Ilya Tyagin, Joey Liu
 
+
+de
+<<<<<<< HEAD
 test
 
 Required python dependencies:
+=======
+required python dependencies:
+>>>>>>> 35b5b3532f3194a1a91815ec39b3ab389eee77d2
   numba
   scipy
   dask

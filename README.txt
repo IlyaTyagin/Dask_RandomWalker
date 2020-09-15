@@ -1,7 +1,7 @@
 DaskNode2Vec
 Ilya Tyagin, Joey Liu
 
-required python dependencies:
+Required python dependencies:
   numba
   scipy
   dask

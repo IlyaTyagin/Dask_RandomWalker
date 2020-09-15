@@ -2,6 +2,9 @@
 #### Date: Nov 2019
 #### Contributors: Ilya Tyagin, Joey Liu
 
+#### Description:
+This script performs random walks in a distrubuted manner therefore significantly boosting the performance of node2vec algorithm. Also produces node embeddings using gensim word2vec implementation if it is specified.
+
 #### Required python dependencies:
   * numba
   * scipy
@@ -23,9 +26,10 @@ To get the 3rd test graph Bump_2911.mtx you can download it using this link: htt
 1. make sure that input .mtx graph matrix and the main.py script are in the same folder
 
 2. sample run:  
-    2.1. run Dask server using command:
+    2.1. run Dask server using command:  
     `$ dask-ssh   --hostfile $PBS_NODEFILE`
-    2.2. run the script:
+    
+    2.2. run the script:  
     `pytnon main.py --dask_scheduler_node node1669:8786 --filename karate.mtx --walks_per_node_per_worker 3 --n_workers 4 --walklen 10 --p 1 --q 2 --compute_embeddings True --window_size 5 --dim 5 --iter 3`
 
 3. parameters:

@@ -1,5 +1,5 @@
-DaskNode2Vec
-Ilya Tyagin, Joey Liu
+DaskNode2Vec, Nov 2019
+  Ilya Tyagin, Joey Liu
 
 required python dependencies:
   numba

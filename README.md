@@ -1,17 +1,18 @@
-DaskNode2Vec, Nov 2019
-  Ilya Tyagin, Joey Liu
+## DaskNode2Vec
+### Date: Nov 2019
+### Contributors: Ilya Tyagin, Joey Liu
 
-required python dependencies:
-  numba
-  scipy
-  dask
-  distributed
-  gensim
-  numpy
+### Required python dependencies:
+  *numba
+  *scipy
+  *dask
+  *distributed
+  *gensim
+  *numpy
 
-Input:
+### Input:
   .mtx graph matrix
-Output:
+### Output:
   graph embedding vectors in .emb format (gensim save_word2vec_format) and set of biased random walks
 
 Graphs:

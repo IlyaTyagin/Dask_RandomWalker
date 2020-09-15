@@ -1,6 +1,8 @@
 DaskNode2Vec
 Ilya Tyagin, Joey Liu
 
+test
+
 Required python dependencies:
   numba
   scipy

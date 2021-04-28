@@ -1,6 +1,8 @@
-## DaskNode2Vec
-#### Date: Nov 2019
-#### Contributors: Ilya Tyagin, Joey Liu
+# DaskNode2Vec
+
+#### Contributors: 
+* Ilya Tyagin
+* Joey Liu
 
 #### Description:
 This script performs random walks in a distrubuted manner therefore significantly boosting the performance of node2vec algorithm. Also produces node embeddings using gensim word2vec implementation if it is specified.
@@ -15,6 +17,7 @@ This script performs random walks in a distrubuted manner therefore significantl
 
 #### Input:
   .mtx graph matrix
+  
 #### Output:
   graph embedding vectors in .emb format (gensim save_word2vec_format) and set of biased random walks
 
@@ -43,4 +46,9 @@ To get the 3rd test graph Bump_2911.mtx you can download it using this link: htt
    * compute_embeddings (boolean) - perform Gensim Word2Vec learning phase. If it is not needed, just skip this and the following parameters:
    * window_size (int) - window size (word2vec)
    * dim (int) - embeddings dimensionality (word2vec)
-   * iter (int) - # of learning iterations (word2vec)
+   * iter (int) - # of learning iterations (word2vec
+
+
+#### References:
+* https://github.com/aditya-grover/node2vec
+* https://www.singlelunch.com/2019/08/01/700x-faster-node2vec-models-fastest-random-walks-on-a-graph/
